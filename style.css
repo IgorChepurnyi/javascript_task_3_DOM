@@ -1,0 +1,63 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.timer {
+    width: 400px;
+    min-height: 200px;
+    border: solid 1px black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+.watch{
+    /* border: solid 1px #525557; */
+    padding: 20px;
+    display: flex;
+    min-height: 200px;
+    width: 400px;
+}
+h2{
+    font-family: Kelly Slab;
+    color: #525557;
+    font-size: 100px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows:auto ;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+.grid div{
+    border: solid 1px #000000;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.main H3{
+    text-align: center;
+    font-weight: 800;
+}
+.main {
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+#hour{
+    font-size: 50px;
+    font-family: Kelly Slab;
+}
+#min{
+    font-size: 50px;
+    font-family: Kelly Slab;
+}
+#sec{
+    font-size: 50px;
+    font-family: Kelly Slab;
+}

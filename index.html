@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="timer">
+            <h1 style="font-size: 50px" id="counter">0</h1>
+            <button onclick="setTime = setInterval('startTimer()', 50)">Натисни</button>
+        </div>
+        <div class="watch">
+            <h2 id="digitWatch"></h2>
+        </div>
+    </div>
+    <div class="main">
+        <H3>
+           <strong>До півночі лишилось</strong> 
+        </H3>
+        <div class="grid">
+            <div><b>Години</b></div>
+            <div><b>Хвилини</b></div>
+            <div><b>Секунди</b></div>
+            <div id="hour"> </div>
+            <div id="min"> </div>
+            <div id="sec"> </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
